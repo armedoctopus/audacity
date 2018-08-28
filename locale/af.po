@@ -569,7 +569,6 @@ msgstr "Spesiale dank aan:"
 
 #: src/AboutDialog.cpp
 #, fuzzy
-#| msgid "Audacity First Run"
 msgid "Audacity website: "
 msgstr "Eerste gebruik van Audacity"
 
@@ -1139,7 +1138,6 @@ msgstr "&Kies opdrag"
 
 #: src/BatchCommands.cpp
 #, fuzzy
-#| msgid "Action"
 msgid "No Action"
 msgstr "Aksie"
 
@@ -1222,13 +1220,11 @@ msgstr "Die gegewe bondelopdrag, '%s', is nie erken nie."
 #. i18n-hint: active verb in past tense
 #: src/BatchCommands.cpp
 #, fuzzy
-#| msgid "Apply Chain"
 msgid "Applied batch chain"
 msgstr "Pas ketting toe"
 
 #: src/BatchCommands.cpp
 #, fuzzy
-#| msgid "Apply Chain"
 msgid "Apply chain"
 msgstr "Pas ketting toe"
 
@@ -1240,7 +1236,6 @@ msgstr ""
 
 #: src/BatchCommands.cpp
 #, fuzzy, c-format
-#| msgid "Apply %s"
 msgid "Apply '%s'"
 msgstr "Pas '%s' toe"
 
@@ -1422,7 +1417,6 @@ msgstr "Wil u definitief '%s' uitvee?"
 #. i18n-hint: Benchmark means a software speed test
 #: src/Benchmark.cpp
 #, fuzzy
-#| msgid "&Run Benchmark..."
 msgid "Benchmark"
 msgstr "Laat loop &normtoets..."
 
@@ -1467,13 +1461,11 @@ msgstr "Sluit"
 #. leave untranslated file extension .txt
 #: src/Benchmark.cpp
 #, fuzzy
-#| msgid "&Run Benchmark..."
 msgid "benchmark.txt"
 msgstr "Laat loop &normtoets..."
 
 #: src/Benchmark.cpp
 #, fuzzy
-#| msgid "Export Spectral Data As:"
 msgid "Export Benchmark Data as:"
 msgstr "Voer spektrale data uit as:"
 
@@ -1505,7 +1497,6 @@ msgstr ""
 
 #: src/Benchmark.cpp
 #, fuzzy, c-format
-#| msgid "Performing Repeat"
 msgid "Performing %d edits...\n"
 msgstr "Herhaling word toegepas"
 
@@ -1526,7 +1517,6 @@ msgstr ""
 
 #: src/Benchmark.cpp
 #, fuzzy, c-format
-#| msgid "Paste"
 msgid "Paste: %d\n"
 msgstr "Plak"
 
@@ -1734,7 +1724,6 @@ msgstr "Projekdatalêers word gestoor"
 
 #: src/DirManager.cpp
 #, fuzzy
-#| msgid "Cleaning up temporary files"
 msgid "Cleaning up after failed save"
 msgstr "Tydelike lêers word skoongemaak"
 
@@ -2244,7 +2233,6 @@ msgstr "Voer spektrale data uit as:"
 #: src/FreqWindow.cpp src/LabelDialog.cpp src/Menus.cpp
 #: src/effects/Contrast.cpp
 #, fuzzy, c-format
-#| msgid "Couldn't write to file: "
 msgid "Couldn't write to file: %s"
 msgstr "Kon nie skryf na lêer nie:"
 
@@ -2594,7 +2582,6 @@ msgstr "Tekslêers (*.txt)|*.txt|Alle lêers (*.*)|*.*"
 
 #: src/LabelDialog.cpp src/Menus.cpp src/Project.cpp
 #, fuzzy, c-format
-#| msgid "Could not open file: \"%s\""
 msgid "Could not open file: %s"
 msgstr "Kon nie lêer \"%s\" open nie."
 
@@ -2723,7 +2710,6 @@ msgstr "Stoor projek &as..."
 
 #: src/Menus.cpp
 #, fuzzy
-#| msgid "Export"
 msgid "&Export"
 msgstr "Uitvoer"
 
@@ -3092,7 +3078,6 @@ msgstr "&Zoem in op seleksie"
 
 #: src/Menus.cpp
 #, fuzzy
-#| msgid "Zoom Tool"
 msgid "Zoom &Toggle"
 msgstr "Vergrootglas"
 
@@ -4212,7 +4197,6 @@ msgstr ""
 #. i18n-hint: Past tense of 'to move', as in 'moved audio track up'.
 #: src/Menus.cpp
 #, fuzzy, c-format
-#| msgid "Moved '%s' %s"
 msgid "Moved '%s' to Top"
 msgstr "'%s' %sgeskuif"
 
@@ -4236,14 +4220,12 @@ msgstr "Skuif baan af"
 #. i18n-hint: Past tense of 'to move', as in 'moved audio track up'.
 #: src/Menus.cpp
 #, fuzzy, c-format
-#| msgid "Moved '%s' %s"
 msgid "Moved '%s' Up"
 msgstr "'%s' %sgeskuif"
 
 # Die tweede parameter is 'op' of 'af' en moet dus teenaan 'geskuif' kom
 #: src/Menus.cpp
 #, fuzzy, c-format
-#| msgid "Moved '%s' %s"
 msgid "Moved '%s' Down"
 msgstr "'%s' %sgeskuif"
 
@@ -4616,14 +4598,12 @@ msgstr "Baan %d"
 #. i18n-hint: given the name of a track, specify its left channel
 #: src/Menus.cpp
 #, fuzzy, c-format
-#| msgid "left"
 msgid "%s left"
 msgstr "links"
 
 #. i18n-hint: given the name of a track, specify its right channel
 #: src/Menus.cpp
 #, fuzzy, c-format
-#| msgid "right"
 msgid "%s right"
 msgstr "regs"
 
@@ -4687,7 +4667,6 @@ msgstr "Belyn"
 
 #: src/Menus.cpp
 #, fuzzy
-#| msgid "Aligned with zero"
 msgid "Aligned start to zero"
 msgstr "Belyn met nulpunt"
 
@@ -4743,13 +4722,11 @@ msgstr "Belyn"
 
 #: src/Menus.cpp
 #, fuzzy
-#| msgid "Aligned end with selection end"
 msgid "Aligned/Moved end to selection end"
 msgstr "Einde met seleksie-einde belyn"
 
 #: src/Menus.cpp
 #, fuzzy
-#| msgid "Aligned end with selection end"
 msgid "Aligned end to selection end"
 msgstr "Einde met seleksie-einde belyn"
 
@@ -5111,7 +5088,6 @@ msgstr ""
 #. i18n-hint: Name of a musical note in the 12-tone chromatic scale
 #: src/PitchName.cpp
 #, fuzzy
-#| msgid "GB"
 msgid "G"
 msgstr "GG"
 
@@ -5133,7 +5109,6 @@ msgstr ""
 #. i18n-hint: Name of a musical note in the 12-tone chromatic scale
 #: src/PitchName.cpp
 #, fuzzy
-#| msgid "dB"
 msgid "B"
 msgstr "dB"
 
@@ -5292,7 +5267,6 @@ msgstr ""
 
 #: src/PluginManager.cpp
 #, fuzzy, c-format
-#| msgid "Overwrite existing files"
 msgid "Overwrite the plug-in file %s ?"
 msgstr "Oorskryf bestaande lêers"
 
@@ -5367,7 +5341,6 @@ msgstr "Horisontale stereo"
 
 #: src/Project.cpp
 #, fuzzy
-#| msgid "Vertical Stereo"
 msgid "Vertical Scrollbar"
 msgstr "Vertikale stereo"
 
@@ -5749,13 +5722,11 @@ msgstr ""
 
 #: src/Resample.cpp
 #, fuzzy
-#| msgid "Quality"
 msgid "Medium Quality"
 msgstr "Kwaliteit"
 
 #: src/Resample.cpp
 #, fuzzy
-#| msgid "Quality"
 msgid "High Quality"
 msgstr "Kwaliteit"
 
@@ -6551,25 +6522,21 @@ msgstr ""
 
 #: src/TrackPanel.cpp
 #, fuzzy, c-format
-#| msgid "Stereo, "
 msgid "Stereo, %dHz"
 msgstr "Stereo, "
 
 #: src/TrackPanel.cpp
 #, fuzzy, c-format
-#| msgid "Mono, "
 msgid "Mono, %dHz"
 msgstr "Mono, "
 
 #: src/TrackPanel.cpp
 #, fuzzy, c-format
-#| msgid "Left, "
 msgid "Left, %dHz"
 msgstr "Links, "
 
 #: src/TrackPanel.cpp
 #, fuzzy, c-format
-#| msgid "Right, "
 msgid "Right, %dHz"
 msgstr "Regs, "
 
@@ -6707,13 +6674,11 @@ msgstr ""
 
 #: src/FileException.h
 #, fuzzy
-#| msgid "LOF Error"
 msgid "File Error"
 msgstr "LOF-fout"
 
 #: src/InconsistencyException.h
 #, fuzzy
-#| msgid "(external program)"
 msgid "Internal Error"
 msgstr "(eksterne program)"
 
@@ -8380,7 +8345,6 @@ msgstr ""
 
 #: src/effects/Equalization.cpp
 #, fuzzy, c-format
-#| msgid "Renamed '%s' to '%s'"
 msgid "Rename '%s' to..."
 msgstr "'%s' hernoem na '%s'"
 
@@ -8390,7 +8354,6 @@ msgstr ""
 
 #: src/effects/Equalization.cpp
 #, fuzzy, c-format
-#| msgid "Renamed '%s' to '%s'"
 msgid "Rename '%s'"
 msgstr "'%s' hernoem na '%s'"
 
@@ -9075,7 +9038,6 @@ msgstr "Nuwe seleksielengte: "
 
 #: src/effects/Repeat.cpp
 #, fuzzy, c-format
-#| msgid "New selection length: "
 msgid "New selection length: %s"
 msgstr "Nuwe seleksielengte: "
 
@@ -9653,7 +9615,6 @@ msgstr ""
 
 #: src/effects/audiounits/AudioUnitEffect.cpp
 #, fuzzy
-#| msgid "Could not open file: "
 msgid "Could not find component"
 msgstr "Kon nie lêer open nie:"
 
@@ -9785,7 +9746,6 @@ msgstr ""
 #: src/effects/ladspa/LadspaEffect.cpp src/effects/lv2/LoadLV2.cpp
 #: src/effects/vamp/LoadVamp.cpp src/effects/VST/VSTEffect.cpp
 #, fuzzy
-#| msgid "Could not open MP3 encoding library!"
 msgid "Could not load the library"
 msgstr "Kon nie die MP3-enkoderingbiblioteek open nie!"
 
@@ -9983,7 +9943,6 @@ msgstr ""
 
 #: src/effects/nyquist/Nyquist.cpp
 #, fuzzy, c-format
-#| msgid "This version of Audacity was not compiled with %s support."
 msgid "This version of Audacity does not support Nyquist plug-in version %ld"
 msgstr "Hierdie weergawe van Audacity is nie met %s-ondersteuning gebou nie."
 
@@ -9996,7 +9955,6 @@ msgstr ""
 
 #: src/effects/nyquist/Nyquist.cpp
 #, fuzzy
-#| msgid "Could not open file: "
 msgid "Could not open file"
 msgstr "Kon nie lêer open nie:"
 
@@ -10385,7 +10343,6 @@ msgstr "Die seleksie word uitgevoer d.m.v. die opdraglyn enkodeerder"
 
 #: src/export/ExportCL.cpp
 #, fuzzy
-#| msgid "Exporting the selected audio using command-line encoder"
 msgid "Exporting the audio using command-line encoder"
 msgstr "Die seleksie word uitgevoer d.m.v. die opdraglyn enkodeerder"
 
@@ -11001,7 +10958,6 @@ msgstr "Die seleksie word as FLAC uitgevoer"
 
 #: src/export/ExportFLAC.cpp
 #, fuzzy
-#| msgid "Exporting the selected audio as FLAC"
 msgid "Exporting the audio as FLAC"
 msgstr "Die seleksie word as FLAC uitgevoer"
 
@@ -11398,7 +11354,6 @@ msgstr "Die seleksie word as Ogg Vorbis uitgevoer"
 
 #: src/export/ExportOGG.cpp
 #, fuzzy
-#| msgid "Exporting the selected audio as Ogg Vorbis"
 msgid "Exporting the audio as Ogg Vorbis"
 msgstr "Die seleksie word as Ogg Vorbis uitgevoer"
 
@@ -11676,19 +11631,16 @@ msgstr "Ongeldige baanverplasing in LOF-lêer."
 
 #: src/import/ImportMIDI.cpp
 #, fuzzy, c-format
-#| msgid "Could not open file: "
 msgid "Could not open file %s: Filename too short."
 msgstr "Kon nie lêer open nie:"
 
 #: src/import/ImportMIDI.cpp
 #, fuzzy, c-format
-#| msgid "Could not open file: "
 msgid "Could not open file %s: Incorrect filetype."
 msgstr "Kon nie lêer open nie:"
 
 #: src/import/ImportMIDI.cpp
 #, fuzzy, c-format
-#| msgid "Could not open file: \"%s\""
 msgid "Could not open file %s."
 msgstr "Kon nie lêer \"%s\" open nie."
 
@@ -13425,7 +13377,6 @@ msgstr "Pas &horisontaal"
 
 #: src/prefs/TracksPrefs.cpp src/toolbars/EditToolBar.cpp
 #, fuzzy
-#| msgid "&Zoom to Selection"
 msgid "Zoom to Selection"
 msgstr "&Zoem in op seleksie"
 
@@ -13445,7 +13396,6 @@ msgstr "millisekondes"
 
 #: src/prefs/TracksPrefs.cpp
 #, fuzzy
-#| msgid "milliseconds"
 msgid "MilliSeconds"
 msgstr "millisekondes"
 
@@ -13460,7 +13410,6 @@ msgstr ""
 
 #: src/prefs/TracksPrefs.cpp
 #, fuzzy
-#| msgid "Zoom"
 msgid "Max Zoom"
 msgstr "Zoem"
 
@@ -13500,7 +13449,6 @@ msgstr ""
 
 #: src/prefs/TracksPrefs.cpp src/toolbars/EditToolBar.cpp
 #, fuzzy
-#| msgid "Zoom Tool"
 msgid "Zoom Toggle"
 msgstr "Vergrootglas"
 
@@ -13716,13 +13664,11 @@ msgstr ""
 
 #: src/toolbars/EditToolBar.cpp
 #, fuzzy
-#| msgid "Fit selection in window"
 msgid "Fit selection to width"
 msgstr "Pas seleksie in venster"
 
 #: src/toolbars/EditToolBar.cpp
 #, fuzzy
-#| msgid "Fit project in window"
 msgid "Fit project to width"
 msgstr "Pas projek in venster"
 
@@ -14091,7 +14037,6 @@ msgstr ""
 #: src/tracks/playabletrack/notetrack/ui/NoteTrackVZoomHandle.cpp
 #: src/tracks/playabletrack/wavetrack/ui/WaveTrackVZoomHandle.cpp
 #, fuzzy
-#| msgid "Right-Click"
 msgid "Right-click for menu."
 msgstr "Regs klik"
 
@@ -14199,7 +14144,6 @@ msgstr "'%s' gewysig na %s"
 
 #: src/tracks/playabletrack/wavetrack/ui/WaveTrackControls.cpp
 #, fuzzy
-#| msgid "Rate Change"
 msgid "WaveColor Change"
 msgstr "Tempoverandering"
 
@@ -14317,7 +14261,6 @@ msgstr "&Stereo na mono"
 
 #: src/tracks/playabletrack/wavetrack/ui/WaveTrackControls.cpp
 #, fuzzy
-#| msgid "Waveform"
 msgid "&Wave Color"
 msgstr "Golfvorm"
 
@@ -14400,13 +14343,11 @@ msgstr "&Stereo na mono"
 
 #: src/tracks/playabletrack/wavetrack/ui/WaveTrackVZoomHandle.cpp
 #, fuzzy
-#| msgid "Zoom In"
 msgid "Zoom x1/2"
 msgstr "Zoem in"
 
 #: src/tracks/playabletrack/wavetrack/ui/WaveTrackVZoomHandle.cpp
 #, fuzzy
-#| msgid "Zoom"
 msgid "Zoom x2"
 msgstr "Zoem"
 
@@ -14416,7 +14357,6 @@ msgstr ""
 
 #: src/tracks/playabletrack/wavetrack/ui/WaveTrackVZoomHandle.cpp
 #, fuzzy
-#| msgid "Zoom Out"
 msgid "Zoom Reset"
 msgstr "Zoem uit"
 
@@ -14695,14 +14635,12 @@ msgstr "Nuwe oudiobaan gemaak"
 #. i18n-hint: will substitute name of track for %s
 #: src/tracks/ui/TrackSelectHandle.cpp
 #, fuzzy, c-format
-#| msgid "Moved '%s' %s"
 msgid "Moved '%s' up"
 msgstr "'%s' %sgeskuif"
 
 # Die tweede parameter is 'op' of 'af' en moet dus teenaan 'geskuif' kom
 #: src/tracks/ui/TrackSelectHandle.cpp
 #, fuzzy, c-format
-#| msgid "Moved '%s' %s"
 msgid "Moved '%s' down"
 msgstr "'%s' %sgeskuif"
 
@@ -15424,7 +15362,6 @@ msgstr ""
 
 #: src/widgets/wxPanelWrapper.h
 #, fuzzy
-#| msgid "Track Panel"
 msgid "Panel"
 msgstr "Baanpaneel"
 
@@ -15439,7 +15376,6 @@ msgstr "Nuwe projek gemaak"
 
 #: src/widgets/wxPanelWrapper.h
 #, fuzzy
-#| msgid "Directories"
 msgid "Directory Dialog"
 msgstr "Gidse"
 
