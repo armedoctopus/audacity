@@ -606,6 +606,17 @@ AudacityProject *CreateNewBackgroundAudacityProject()
       Destroyer< AudacityProject > {}
    } );
    const auto p = gAudacityProjects.back().get();
+   // wxGTK3 seems to need to require creating the window using default position
+   // and then manually positioning it.
+   //p->SetPosition(wndRect.GetPosition());
+
+   //if(bMaximized) {
+   //   p->Maximize(true);
+   //}
+   //else if (bIconized) {
+      // if the user close down and iconized state we could start back up and iconized state
+      // p->Iconize(TRUE);
+   //}
 
    //AudacityProject *p = new AudacityProject(NULL, -1, wxPoint(0, 0), wxSize(0, 0));
 
@@ -619,7 +630,7 @@ AudacityProject *CreateNewBackgroundAudacityProject()
 
    // Okay, GetActiveProject() is ready. Now we can get its CommandManager,
    // and add the shortcut keys to the tooltips.
-   p->GetControlToolBar()->RegenerateToolsTooltips();
+   p->GetControlToolBar()->RegenerateTooltips();
 
    ModuleManager::Get().Dispatch(ProjectInitialized);
 
