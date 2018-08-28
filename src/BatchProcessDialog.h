@@ -49,6 +49,8 @@ class BatchProcessDialog final : public wxDialogWrapper {
 
    void OnApplyToProject(wxCommandEvent & event);
    void OnApplyToFiles(wxCommandEvent & event);
+   //add command line options
+   void ApplyChainToFiles(wxString name, const wxArrayString& files);
    void OnCancel(wxCommandEvent & event);
 
    wxButton *mOK;

@@ -296,7 +296,12 @@ void BatchProcessDialog::OnApplyToFiles(wxCommandEvent & WXUNUSED(event))
    dlog.GetPaths(files);
 
    files.Sort();
+   //add command line options
+   ApplyChainToFiles(name, files);
+}
 
+void BatchProcessDialog::ApplyChainToFiles(wxString name, const wxArrayString& files) {
+   AudacityProject * project = GetActiveProject();
    wxDialog * pD = safenew wxDialogWrapper(this, wxID_ANY, GetTitle());
    pD->SetName(pD->GetTitle());
    ShuttleGui S(pD, eIsCreating);

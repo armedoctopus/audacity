@@ -91,6 +91,8 @@ It handles initialization and termination by subclassing wxApp.
 #include "ondemand/ODManager.h"
 #include "commands/Keyboard.h"
 #include "widgets/ErrorDialog.h"
+//command line options added
+#include "BatchProcessDialog.h"
 #include "prefs/DirectoriesPrefs.h"
 #include "tracks/ui/Scrubbing.h"
 
@@ -1465,6 +1467,31 @@ bool AudacityApp::OnInit()
       }
       exit(1);
    }
+   //command line options added
+   wxString chainName;
+   if (parser->Found(wxT("c"), &chainName)) {
+       InitAudioIO();
+       Importer::Get().Initialize();
+
+       AudacityProject * p = CreateNewBackgroundAudacityProject();
+       BatchProcessDialog dlg(NULL);
+       wxPathList pl;
+       wxString path;
+       wxArrayString files;
+
+       pl.Add(wxGetCwd());
+
+       for (size_t i = 0; i < parser->GetParamCount(); i++) {
+           path = pl.FindAbsoluteValidPath(parser->GetParam(i));
+           if (path != wxT("")) {
+               files.Add(path);
+           }
+       }
+       dlg.ApplyChainToFiles(chainName, files);
+       QuitAudacity(true);
+       //this might need to be false to work test it out
+       return true;
+   }
 
    // BG: Create a temporary window to set as the top window
    wxImage logoimage((const char **)AudacityLogoWithName_xpm);
@@ -2002,6 +2029,8 @@ std::unique_ptr<wxCmdLineParser> AudacityApp::ParseCommandLine()
    /*i18n-hint: This decodes an autosave file */
    parser->AddOption(wxT("d"), wxT("decode"), _("decode an autosave file"),
                      wxCMD_LINE_VAL_STRING);
+   //command line options added
+   parser->AddOption(wxT("c"), wxT("chain"), _("execute chain on input files"), wxCMD_LINE_VAL_STRING);
 
    /*i18n-hint: This displays a list of available options */
    parser->AddSwitch(wxT("h"), wxT("help"), _("this help message"),

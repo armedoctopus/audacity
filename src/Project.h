@@ -105,6 +105,8 @@ class WaveClip;
 class BackgroundCell;
 
 AudacityProject *CreateNewAudacityProject();
+//added command line option
+AudacityProject *CreateNewBackgroundAudacityProject();
 AUDACITY_DLL_API AudacityProject *GetActiveProject();
 void RedrawAllProjects();
 void RefreshCursorForAllProjects();
