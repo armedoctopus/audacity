@@ -1488,9 +1488,10 @@ bool AudacityApp::OnInit()
            }
        }
        dlg.ApplyChainToFiles(chainName, files);
-       QuitAudacity(true);
+       //QuitAudacity(true);
        //this might need to be false to work test it out
-       return true;
+       //return true;
+       exit(0);
    }
 
    // BG: Create a temporary window to set as the top window
